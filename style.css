@@ -320,7 +320,7 @@ body{
     .heading p{
       font-size: 3rem;
     }
-    .footer .social .box-container a{
+    .footer box-container .social a{
         font-size:25px;
         color:white;
         border:2px solid var(--bg--color);
@@ -334,7 +334,7 @@ body{
         transition:0.3s ease;
     }
     
-    .footer .social .box-container a:hover{
+    .footer box-container .social a:hover{
         transform:scale(1.2)translateY(-10px);
         background-color: white;
         color:var(--main--color);
