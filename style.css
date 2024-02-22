@@ -15,6 +15,10 @@
     --text--color:black;
     --main--color:#fa881d;
 }
+
+span{
+  color: var(--main--color);
+}
 html{
     font-size:55%;
     overflow-x:hidden;
@@ -134,6 +138,15 @@ body{
         background-color: var(--second--bg--color);
     
     }
+    .split-layout__item h3{
+      font-size: 2rem;
+    }
+    split-layout__item .contact .heading {
+      font-size: 2rem;
+    }
+    .signup h3{
+      font-size: 2rem;
+    }
     .contact h2{
         margin-bottom: 3rem;
     
@@ -247,7 +260,7 @@ body{
         padding: .6rem 0;
       }
       .footer .box-container .box a:hover {
-        color: #219150;
+        color: var(--main--color);
       }
       
     
@@ -287,6 +300,62 @@ body{
     .signup{
         margin-top: 4rem;
         text-align: center;
+        font-size:  1.4rem;
         align-items: center;
         justify-content: center;
     }
+    .footer ul li a{
+      color:white;
+      border-bottom:3px solid transparent;
+      transition:0.3s ease;
+  }
+  .footer ul li a:hover{
+      border-bottom:3px solid white;
+      .footer .social{
+        text-align: center;
+        padding-bottom: 25px;
+        color:white;
+    
+    }
+    .heading p{
+      font-size: 3rem;
+    }
+    .footer .social .box-container a{
+        font-size:25px;
+        color:white;
+        border:2px solid var(--bg--color);
+        width:42px;
+        height:42px;
+        line-height:42px;
+        display:inline-block;
+        text-align:center;
+        border-radius:50%;
+        margin:0 10px;
+        transition:0.3s ease;
+    }
+    
+    .footer .social .box-container a:hover{
+        transform:scale(1.2)translateY(-10px);
+        background-color: white;
+        color:var(--main--color);
+    }
+    
+    .footer ul{
+        margin-top: 0;
+        padding:0;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom:0;
+    }
+  }
+
+  .wrapper{
+    margin-left: 10rem;
+    margin-right:0 ;
+    padding-right: 0;
+  }
+
+  split-layout__item .contact form{
+    margin-right: 20rem;
+  }
+  
