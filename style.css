@@ -311,10 +311,10 @@ body{
   }
   .footer ul li a:hover{
       border-bottom:3px solid white;
-      .footer .social{
+    /*  .footer .social{ ----------------
         text-align: center;
         padding-bottom: 25px;
-        color:white;
+        color:white;*/
     
     }
     .heading p{
@@ -335,7 +335,7 @@ body{
     }
     
     .footer box-container .social a:hover{
-        transform:scale(1.2)translateY(-10px);
+        transform:scale(1.2) translateY(-10px);
         background-color: white;
         color:var(--main--color);
     }
