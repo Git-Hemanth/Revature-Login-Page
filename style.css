@@ -182,6 +182,7 @@ body{
         display: flex;
         flex-direction: column;
         margin-top:8rem;
+        margin-left:10rem;
         
         @media screen and (min-width: 30em) {
           flex-direction: row;
