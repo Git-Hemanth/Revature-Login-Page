@@ -360,4 +360,8 @@ body{
   split-layout__item .contact form{
     margin-right: 10rem;
   }
+.credit{
+    align-items:center;
+    text-align:center;
+}
   
