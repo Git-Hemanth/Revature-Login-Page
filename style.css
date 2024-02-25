@@ -396,6 +396,10 @@ body{
     .menu-toggle {
         display: none;
     }
+    .navbar{
+display:flex !important;
+    }
+}
 
 .menu {
     position: absolute;
