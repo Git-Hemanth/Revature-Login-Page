@@ -49,6 +49,9 @@ body{
     cursor: pointer;
     transition: 0.3s ease;
     }
+.logo:hover{
+    scale:1.04;
+}
     .navbar{
         margin-right: 3rem;
     }
