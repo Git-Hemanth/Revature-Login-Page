@@ -50,7 +50,7 @@ body{
     transition: 0.3s ease;
     }
 .logo:hover{
-    scale:1.04;
+    scale:1.15;
 }
     .navbar{
         margin-right: 3rem;
