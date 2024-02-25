@@ -3,4 +3,4 @@
 Link:https://app.revature.com/login
 
 # Revature-Login-Page Clone
-Link:https://revaturelogin.pages.dev/
+Link:https://revaturelogin.pages.dev
