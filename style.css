@@ -366,7 +366,7 @@ body{
 }
 /* Hamburger menu styles */
 .menu-toggle {
-    display: block;
+    display: none;
     cursor: pointer;
     position: relative;
     z-index: 99;
