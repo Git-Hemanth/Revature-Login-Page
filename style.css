@@ -364,4 +364,71 @@ body{
     align-items:center;
     text-align:center;
 }
+/* Hamburger menu styles */
+.menu-toggle {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+}
+
+.menu-toggle input {
+    display: none;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: #000;
+    margin-bottom: 5px;
+    position: relative;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.menu-toggle span:last-child {
+    margin-bottom: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+    display: none;
+    z-index: 98;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+/* Show menu when checkbox is checked */
+.menu-toggle input:checked ~ .menu {
+    display: block;
+}
+
+/* Hide checkbox */
+.menu-toggle input:checked ~ .menu-toggle span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle input:checked ~ .menu-toggle span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle input:checked ~ .menu-toggle span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
   
