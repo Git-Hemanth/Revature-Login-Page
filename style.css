@@ -392,6 +392,10 @@ body{
 .menu-toggle span:last-child {
     margin-bottom: 0;
 }
+@media screen and (min-width: 769px) {
+    .menu-toggle {
+        display: none;
+    }
 
 .menu {
     position: absolute;
