@@ -65,6 +65,9 @@ body{
     color:var(--main--color);
     border-bottom:3px solid var(--main--color);
     } 
+.menu-toggle {
+    display: block;
+}
 
  .ima{
     margin-top: 7.2rem;
@@ -366,7 +369,7 @@ body{
 }
 /* Hamburger menu styles */
 .menu-toggle {
-    display: none;
+    display: block;
     cursor: pointer;
     position: relative;
     z-index: 99;
