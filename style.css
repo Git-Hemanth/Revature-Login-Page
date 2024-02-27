@@ -26,10 +26,9 @@ html{
 body{
     background: var(--bg--color);
     color:var(--text--color);
-  
+  -webkit-scrollbar-thumb:var(--main--color);
 }
-body::-webkit-scrollbar-thumb {
-  background-color: var(--main--color); }
+
 
 
 
