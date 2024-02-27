@@ -329,7 +329,7 @@ body{
       font-size: 3rem;
     }
  .footer .box-container .social-icons{
-left-padding:10px;
+     margin-top:10px;
  }
     .footer .box-container .social-icons a {
     font-size: 25px;
