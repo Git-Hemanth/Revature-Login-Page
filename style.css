@@ -469,4 +469,17 @@ display:flex !important;
         text-align: center;
     }
 }
+@media screen and (max-width: 768px) {
+  .box {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .box {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
   
