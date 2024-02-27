@@ -26,6 +26,7 @@ html{
 body{
     background: var(--bg--color);
     color:var(--text--color);
+    scrollbar-color:var(--main--color);
 }
 
 
@@ -52,6 +53,8 @@ body{
 .logo:hover{
     scale:1.15;
 }
+
+
     .navbar{
         margin-right: 3rem;
     }
