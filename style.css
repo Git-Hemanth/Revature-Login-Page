@@ -178,7 +178,7 @@ body{
     .contact form .input-box{
         display:flex;
         right-padding:2rem;
-        margin-right:2rem;
+        margin-right:5rem;
         justify-content: center;
         flex-wrap: wrap;
     }
