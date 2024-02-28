@@ -91,7 +91,7 @@ body{
     .loginBtn {
         box-sizing: border-box;
         position: relative;
-        /* width: 13em;  - apply for fixed size */
+        /* width: 13em;-apply for fixed size */
         margin: 0.2em;
         padding: 0 15px 0 46px;
         border: none;
@@ -151,7 +151,7 @@ body{
         background: #E74B37;
       }
 
-      .contact{
+    .contact{
         background-color: var(--bg--color);
     
     }
@@ -177,6 +177,7 @@ body{
     }
     .contact form .input-box{
         display:flex;
+        right-padding:2rem;
         justify-content: center;
         flex-wrap: wrap;
     }
