@@ -179,11 +179,11 @@ body{
         display:flex;
         right-padding:2rem;
         margin-right:8rem;
-        margin-left:5rem;
+        margin-left:7rem;
         justify-content: center;
         flex-wrap: wrap;
     }
- .split-layout h3{
+ .heading{
      margin-left:5rem;
  }
     .contact form .input-box input{
