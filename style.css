@@ -192,7 +192,7 @@ body{
         font-size:1.6rem;
         color:var(--text--color);
         background: var(--bg--color);
-        border-radius: 1.1rem;
+        border-radius: 1.4rem;
         border:3px solid var(--main--color);
         margin:1rem 0;
         resize:none;
