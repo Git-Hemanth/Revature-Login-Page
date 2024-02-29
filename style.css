@@ -13,7 +13,7 @@
     --bg--color:#fcfcfc;
     --second--bg--color:#f8f8f8;
     --text--color:black;
-    --main--color:#d66a04;
+    --main--color:#e07714;
 }
 
 span{
@@ -193,7 +193,7 @@ body{
         color:var(--text--color);
         background: var(--bg--color);
         border-radius: 0.8rem;
-        border:4px solid var(--main--color);
+        border:3px solid var(--main--color);
         margin:1rem 0;
         resize:none;
     }
