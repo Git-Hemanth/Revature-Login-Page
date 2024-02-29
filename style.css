@@ -193,7 +193,7 @@ body{
         color:var(--text--color);
         background: var(--bg--color);
         border-radius: 0.8rem;
-        border:5px solid var(--main--color);
+        border:3px solid var(--main--color);
         margin:1rem 0;
         resize:none;
     }
